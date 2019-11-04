@@ -21,7 +21,7 @@ void print(int id) {
 
   if (T[id].parent == NIL) cout << "root, ";
   else if (T[id].left == NIL) cout << "leaf, ";
-  else cout << "iinternal node, ";
+  else cout << "internal node, ";
 
   cout << "[";
   for (i = 0, c = T[id].left; c != NIL; i++, c = T[c].right) {
